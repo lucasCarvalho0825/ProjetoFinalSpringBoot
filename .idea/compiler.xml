@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="EurekaServer" />
+        <module name="AvaliacaoServer" />
+        <module name="UsuarioServer" />
+        <module name="AuthServer" />
+        <module name="EventoServer" />
+        <module name="GatewayServer" />
+        <module name="PagametoServer" />
+        <module name="spring-boot-autenticacao-jwt" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AuthServer" target="17" />
+      <module name="AvaliacaoServer" target="17" />
+      <module name="EurekaServer" target="17" />
+      <module name="EventoServer" target="17" />
+      <module name="GatewayServer" target="17" />
+      <module name="PagametoServer" target="17" />
+      <module name="spring-boot-autenticacao-jwt" target="17" />
+      <module name="UsuarioServer" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AuthServer" options="-parameters" />
+      <module name="AvaliacaoServer" options="-parameters" />
+      <module name="EurekaServer" options="-parameters" />
+      <module name="EventoServer" options="-parameters" />
+      <module name="GatewayServer" options="-parameters" />
+      <module name="PagametoServer" options="-parameters" />
+      <module name="UsuarioServer" options="-parameters" />
+      <module name="spring-boot-autenticacao-jwt" options="-parameters" />
+    </option>
+  </component>
+</project>

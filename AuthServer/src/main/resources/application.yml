@@ -1,0 +1,30 @@
+server:
+  port: 0
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  datasource:
+    url: 'jdbc:mysql://localhost:3306/db_usuario'
+    username: 'root'
+    password: '940825'
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  application:
+    name: 'autenticacao-ms'
+
+springdoc:
+  swagger-ui:
+    use-root-path: true
+  api-docs:
+    path: '/documentacao'
+
+eureka:
+  client:
+    service-url:
+      defaultZone: 'http://localhost:8081/eureka'
+  instance:
+    instance-id: ${spring.application.name}:${random.int}

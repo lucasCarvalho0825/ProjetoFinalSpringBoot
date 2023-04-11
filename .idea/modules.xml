@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AuthServer/AuthServer.iml" filepath="$PROJECT_DIR$/AuthServer/AuthServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AvaliacaoServer/AvaliacaoServer.iml" filepath="$PROJECT_DIR$/AvaliacaoServer/AvaliacaoServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EurekaServer/EurekaServer.iml" filepath="$PROJECT_DIR$/EurekaServer/EurekaServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EventoServer/EventoServer.iml" filepath="$PROJECT_DIR$/EventoServer/EventoServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GatewayServer/GatewayServer.iml" filepath="$PROJECT_DIR$/GatewayServer/GatewayServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PagametoServer/PagametoServer.iml" filepath="$PROJECT_DIR$/PagametoServer/PagametoServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UsuarioServer/UsuarioServer.iml" filepath="$PROJECT_DIR$/UsuarioServer/UsuarioServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/final.iml" filepath="$PROJECT_DIR$/.idea/final.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-autenticacao-jwt/spring-boot-autenticacao-jwt.iml" filepath="$PROJECT_DIR$/spring-boot-autenticacao-jwt/spring-boot-autenticacao-jwt.iml" />
+    </modules>
+  </component>
+</project>
