@@ -2,3 +2,76 @@ Lucas Carvalho e Matheus Kosaki
 
 
 link para o : https://youtu.be/HBixVw7NhyQ
+
+
+# EventFinder
+## O melhor jeito de conseguir achar o lugar e o momento perfeito para você
+
+EventFinder é uma API desenvolvida para ajudar pessoas novas em regioes,ou entediadas,à achar eventos que sejam o seu perfil.
+
+## Features
+
+- Lista Eventos na região
+- Possibilita criação de usuario para navegar na API.
+- Possibilita criar seus proprio evento.
+- Facilita o pagamento de ingressos integrando tudo em apenas um lugar
+
+## Tech
+
+Tecnolgias usadas para construção da API:
+
+- [SpringBoot] - FrameWork para desenvolvimento java.
+- [Spring Cloud] - FrameWork para compatibilizar o SpringBoot com as plataformas de aplicações nas nuvens.
+- [JWT] - Metodo para autenticação para poder ter acesso as funcionalidades da API.
+- [Mysql] - Sistema de gerenciamento do banco de dados
+- [Lombok] - Biblioteca para redução de codigo boilerplate 
+- [Maven] - Ferramente utilizada para automação da compliação do projeto em Java
+- [Flyway] - Ferramenta de migração de banco de dados.
+- [Modelmapper] - Ferramente para mapeamento de objetos complexos
+- [Eureka] - Serviço responsavel do gerenciamento dinamico da aplicação
+
+And of course Dillinger itself is open source with a [public repository][dill]
+ on GitHub.
+
+## Installation
+
+EventFinder requere [SpringBoot].
+
+Ao abrir o projeto utilize o [Maven] para instalar as dependencias.
+
+A API se baseia no conceito de microserviço
+
+Suba o serviço [Eureka] “com/pvb/projeto/eurekaserver/EurekaServerApplication.java” para poder gerenciar cada microserviço.
+
+Com o intuito de melhorar a navegação por URL , suba o serviço de Gateway resposável por ajudar as rotas por você.
+
+## Demonstrate
+    https://youtu.be/HBixVw7NhyQ
+
+# DEVS
+    - [Lucas Caravalho]
+    - [Matheus Kozak]
+
+
+
+## License
+
+PUCPR
+
+**Free Software**
+
+
+   [dill]: <https://github.com/lucasCarvalho0825/ProjetoFinalSpringBoot.git>
+   [Lucas Caravalho]: <https://github.com/lucasCarvalho0825>
+   [Matheus Kozak]: <https://github.com/SedentaryDust>
+   [SpringBoot]: <https://spring.io>
+   [Spring Cloud]: <https://spring.io/projects/spring-cloud>
+   [JWT]: <https://auth0.com/resources/ebooks/jwt-handbook?utm_content=latamengbrazilgenericauthentication-jwthandbook-jwthandbook&utm_source=google&utm_campaign=latam_mult_bra_all_ciam-all_dg-ao_auth0_search_google_text_kw_utm2&utm_medium=cpc&utm_id=aNK4z0000004IQEGA2&utm_term=jwt-c&gclid=CjwKCAjwue6hBhBVEiwA9YTx8FGS-1J_1cqCf8g68eqxSQ7C6IBro_pmSOguQepJ0uvvVp2GXQ7h-RoCJ9IQAvD_BwE>
+   [Mysql]: <https://www.mysql.com>
+   [Lombok]: <https://projectlombok.org>
+   [Maven]: <https://maven.apache.org>
+   [Flyway]: <https://flywaydb.org>
+   [Modelmapper]: <https://modelmapper.org>
+   [Eureka]: <https://spring.io/guides/gs/service-registration-and-discovery/>
+
+
